@@ -1,0 +1,134 @@
+/* GENERAL */
+body {
+    color: #999999;
+    background: #111111;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container:before,
+.group:before,
+.menu:before,
+.container:after,
+.group:after,
+.menu:after {
+    content: " ";
+    display: table;
+}
+
+.container:after,
+.group:after,
+.menu:after {
+    clear: both;
+}
+
+.container,
+.group,
+.menu {
+    *zoom: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.menu li {
+    float: left;
+}
+
+.fa {
+    vertical-align: middle;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* CONTACT */
+.contact-bar,
+.presonal a {
+    color: #999999;
+}
+
+.contact-bar {
+    background-color: #111111;
+    height: 84px;
+    font-size: 14px;
+}
+
+.menu personal li {
+    margin: auto;
+}
+
+.social-icon {
+    margin: 10px;
+    color: #999999;
+}
+
+.icony{
+    float: right;
+}
+
+.menu social a {
+    float: right;
+}
+
+.kontajner {
+    width: 350px;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input:not([type="checkbox"]):not([type="file"]),   
+button,
+textarea {
+    color: white;
+    background: #47403e;
+    border: none;
+    width: 200px;
+    padding: 15px 20px;
+    margin: 15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
+}
+
+textarea {
+    width: 400px;
+}
+
+button {
+    color: whitesmoke;
+    background: #47403e;
+}
+
+label {
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    color: #999999;
+}
+
+p {
+    color: #999999;
+}
+
+select {
+    background-color: #47403e;
+    color: whitesmoke;
+}
